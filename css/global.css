@@ -385,10 +385,10 @@ body {
     width: 100%;
     height: auto;
 }
-#nav-words {
+.nav-words {
   padding-left: 10px;
 }
-#login-nav {
+.login-nav {
   float: right;
 }
 
