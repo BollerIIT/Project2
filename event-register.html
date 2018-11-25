@@ -2,13 +2,13 @@
 <html lang="en" class="nojs">
 
 <!-- Programmer: Thomas Boller -->
-<!-- Contact Page -->
+<!-- event registration Page -->
 
 <head>
   <meta charset="UTF-8" />
-  <title>ISUD Contact Page</title>
+  <title>ISUD Event Registration Page</title>
   <link rel="stylesheet" href="css/global.css">
-  <script src="javascript/contact_script.js"></script>	  
+  <script src="javascript/register_script.js"></script>	  
 </head>
 
 <body>
@@ -20,10 +20,10 @@
     <a href="login.html" id="login-nav">Login</a>
   </nav>  
   <section class="tertiary-page">
-    <h1>Thank you for your interest in ISUD.</h1>
+    <h1>We Are Excited To See You!</h1>
     <form id="isudForm" method = "get" action="#null" autocomplete="on" onsubmit="submitBtnHandler()">
       <fieldset>
-      <legend>Contact Us</legend>
+      <legend>2018 Congress Lima, Peru</legend>
         <div id="formContainer">
           <div>
           Name: <input type="text" placeholder="Name" class="sizedtextboxes" id="name" required />
@@ -32,10 +32,10 @@
           Email: <input type="email" placeholder="Email" class="sizedtextboxes" id="email" required />
           </div>
           <div>
-          Subject <input type="text" placeholder="Subject" class="sizedtextboxes" id="subject"required />
+          Phone Number: <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="sizedtextboxes" id="pNumber" required />
           </div>
           <div>
-          Message <input type="text" placeholder="Message" class="sizedtextboxes" id="message" required />
+          Date of birth: <input type="date" class="sizedtextboxes" id="dob" required />
           </div>
           <div id="submitBtn" >
             <button class="submitBtn" id="submit" type="submit">Send</button>
