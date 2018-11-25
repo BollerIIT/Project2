@@ -428,3 +428,15 @@ body {
 .main-page button:hover {
   background-color: #3198FF;
 }
+.secondary-page {
+  background-image: url("https://ak4.picdn.net/shutterstock/videos/3189244/thumb/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15%;
+  padding-top: 2%;
+  opacity: 0.8;
+  line-height: 1.2;
+  text-align: left;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+}
