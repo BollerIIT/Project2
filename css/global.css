@@ -1,0 +1,51 @@
+/* ---------- This is the global css that covers every page ---------- */
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+0,d8e1e7+36,e0eff9+100 */
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(left, #f2f6f8 0%, #d8e1e7 36%, #e0eff9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #f2f6f8 0%,#d8e1e7 36%,#e0eff9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #f2f6f8 0%,#d8e1e7 36%,#e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
+  background: #d0e4f7; /* Old browsers */
+  background: -moz-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+.topnav a:hover {
+  background-color: #3198FF;
+  color: white;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.nav-container {
+  display: inline-block
+}
+.topnav img {
+    width: 100%;
+    height: auto;
+}
+#nav-words {
+  padding-left: 10px;
+}
+#login-nav {
+  float: right;
+}
