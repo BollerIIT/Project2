@@ -391,3 +391,40 @@ body {
 #login-nav {
   float: right;
 }
+
+.main-page {
+  background-image: url("http://congreso.pucp.edu.pe/isud/wp-content/uploads/sites/43/2018/04/Imagen-ISUD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15%;
+  opacity: 0.8;
+  line-height: 1.2;
+  text-align: left;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+}
+.main-page h1 {
+  font-size: 3.236em
+}
+
+.main-page h2 {
+  font-size: 2.236em
+}
+
+.main-page h3 {
+  font-size: 1.236em
+}
+
+.main-page h4 {
+  font-size: 1em
+}
+.main-page button {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  width: 25%;
+  background-color: #026AD2;
+  border-radius: 8px;
+  border: none;
+}
+.main-page button:hover {
+  background-color: #3198FF;
+}
