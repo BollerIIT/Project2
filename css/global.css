@@ -440,3 +440,60 @@ body {
   text-align: left;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
 }
+.tertiary-page {
+  background-image: url("https://ak4.picdn.net/shutterstock/videos/3189244/thumb/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15%;
+  padding-top: 2%;
+  opacity: 0.8;
+  line-height: 1.2;
+  text-align: center;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+}
+/*------------------- Forms --------------------------------- */
+.sizedtextboxes {width: 400px; height: 20px}
+fieldset{
+    width: 70%;
+    margin: auto;
+}
+#isudForm legend {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 3px solid white;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Chicle', cursive, Arial, Sans-Serif;
+}
+#isudForm{
+	display: inline-grid;
+	text-align: center;
+	padding: 3%;
+	border-radius: 1.3em;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
+	background: #d0e4f7; /* Old browsers */
+	background: -moz-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */ 
+	margin: auto;
+	line-height: 1.8;
+}
+label {
+	display: block;
+	vertical-align: middle;
+}
+input {
+	font-family: 'Mali', cursive, Utopia, "Liberation Serif", Sans-Serif;
+	width: auto;
+	border-radius: 5px;
+	border: 1px solid #999;
+	width: 100%;
+	background-color:#EBEBEB;
+  }  
