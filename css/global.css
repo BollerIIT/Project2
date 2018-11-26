@@ -387,11 +387,8 @@ body {
 }
 .nav-words {
   padding-left: 10px;
+  float: left;
 }
-.login-nav {
-  float: right;
-}
-
 .main-page {
   background-image: url("http://congreso.pucp.edu.pe/isud/wp-content/uploads/sites/43/2018/04/Imagen-ISUD.jpg");
   background-repeat: no-repeat;
