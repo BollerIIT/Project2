@@ -437,6 +437,9 @@ body {
   text-align: left;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
 }
+.secondary-page body {
+  overflow: hidden;
+}
 .tertiary-page {
   background-image: url("https://ak4.picdn.net/shutterstock/videos/3189244/thumb/1.jpg");
   background-repeat: no-repeat;
