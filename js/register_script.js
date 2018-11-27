@@ -28,7 +28,7 @@ Basic form data collection
 	function submitForm () {		
 		//Alerts the user that their data was submited
 		alert("Your information was received, someone will contact you shortly");		
-		window.location.replace("https://lonelygroup.github.io/Project2/index.html");
+		window.open("https://lonelygroup.github.io/Project2/index.html");
 		/* This code would mail the form to isud - I have this commented out so they are not getting emails on accident
 		var yourMessage = document.getElementById("name").value + document.getElementById("email").value + document.getElementById("pNumber").value + document.getElementById("dob").value;
 		var subject = "2018 Congress Registration";
