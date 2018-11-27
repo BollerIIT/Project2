@@ -26,7 +26,7 @@ Basic form data collection
 	function submitForm () {		
 		//Alerts the user that their data was submited
 		alert("Your information was received, someone will contact you shortly");		
-		
+	
 		/* This code would mail the form to isud - I have this commented out so they are not getting emails on accident
 		var yourMessage = document.getElementById("message").value + document.getElementById("name").value + document.getElementById("email").value;
 		var subject = document.getElementById("subject").value;
