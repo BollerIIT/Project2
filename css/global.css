@@ -436,7 +436,9 @@ body {
   line-height: 1.2;
   text-align: left;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+  overflow: hidden;
 }
+
 .secondary-page body {
   overflow: hidden;
 }
@@ -445,12 +447,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 15%;
+  padding: 20%;
   padding-top: 2%;
   opacity: 0.8;
   line-height: 1.2;
   text-align: center;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+  overflow: hidden;
 }
 /*------------------- Forms --------------------------------- */
 .sizedtextboxes {width: 400px; height: 20px}
